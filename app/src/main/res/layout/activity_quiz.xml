@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".QuizActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:paddingRight="0dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_abjad"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/quiz_menu_abjad" />
+            <ImageButton
+                android:id="@+id/btn_angka"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/quiz_menu_angka" />
+            <ImageButton
+                android:id="@+id/btn_hewan"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/quiz_menu_hewan" />
+            <ImageButton
+                android:id="@+id/btn_kendaraan"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/quiz_menu_kendaraan" />
+            <ImageButton
+                android:id="@+id/btn_buah"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/quiz_menu_buah" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back"/>
+
+</RelativeLayout>

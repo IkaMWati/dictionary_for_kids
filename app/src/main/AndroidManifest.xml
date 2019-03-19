@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.study.dictionaryforkids">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ExerciseActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".study.AbjadActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".study.AngkaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".study.AnimalsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".study.KendaraanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".study.BuahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exercise.QuizAbjadActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exercise.QuizAngkaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exercise.QuizAnimalsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exercise.QuizBuahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exercise.QuizKendaraanActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".HasilActivity"
+            android:screenOrientation="landscape" ></activity>
+    </application>
+
+</manifest>
