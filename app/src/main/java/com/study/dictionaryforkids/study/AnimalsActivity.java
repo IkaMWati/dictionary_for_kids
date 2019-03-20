@@ -105,7 +105,7 @@ public class AnimalsActivity extends AppCompatActivity {
 
             }
         });
-        ButtonSuara3.setOnClickListener( new View.OnClickListener()
+        ButtonSuara3.setOnClickListener( new View.OnClickListener(){
 
             @Override
             public void onClick (View v) {
@@ -117,7 +117,7 @@ public class AnimalsActivity extends AppCompatActivity {
             }
         });
 
-        ButtonSuara4.setOnClickListener(new View.OnClickListener()
+        ButtonSuara4.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v) {
